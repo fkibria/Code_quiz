@@ -1,4 +1,7 @@
+* {background-color: violet;}
+
 h1,h3 {
+    color:black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin-left: 10%;
@@ -19,4 +22,14 @@ h1,h3 {
     border-radius: 1rem;
     cursor: pointer;
     background-color: rebeccapurple;
+}
+
+#test {
+    width: 200px;
+    height:200px;
+}
+
+#test2 {
+    width: 400px;
+    height:200px;
 }
