@@ -27,12 +27,28 @@ h1,h3 {
     background-color: rebeccapurple;
 }
 
-#test {
-    width: 200px;
-    height:200px;
+.choice {
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 5px;
+    border-radius: 1rem;
+    display: block;
+    cursor: pointer;
+    background-color: rgb(50, 9, 92);
 }
 
-#test2 {
-    width: 400px;
-    height:200px;
+.choiceRight {
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 5px;
+    border-radius: 1rem;
+    display: block;
+    cursor: pointer;
+    background-color: rgb(50, 9, 92);
 }
