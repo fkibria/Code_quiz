@@ -80,7 +80,8 @@ const questionFunctionality = function () {
 
 function wrongAnswer(){
     counter -= 10;
-    questionFunctionality();
+    questionFunctionality();    
+    document.getElementById("#selection").innerText('<p> Incorrect! </p>');
 }
 
 function displayChoices(arr, dom, answer){
@@ -98,6 +99,7 @@ function displayChoices(arr, dom, answer){
 
     wrongAnswers.forEach((btn) =>{
         btn.addEventListener("click", wrongAnswer);
+        // btn.addEventListener("click", () => {document.getElementById("#selection").innerText('<p> Incorrect! </p>')});
     })
 
     rightAnswer.addEventListener("click", questionFunctionality);
