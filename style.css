@@ -12,6 +12,9 @@ h1,h3 {
     display: flex;
     justify-content: center;
 }
+.hidden {
+    display: none;
+}
 
 .btn {
     padding: 1rem;
