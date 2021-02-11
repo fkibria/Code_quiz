@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+         <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
 
         <title>Code Quiz</title>
@@ -12,6 +14,7 @@
     </head>
 
     <body>
+        <div class="container start-screen"> 
         <header>
             <h1> Code Quiz </h1>
         </header>
@@ -21,20 +24,21 @@
             <br> 
             Ready? GO!
         </h3>
+        </div>
         <br>
 
         <div class="container">
 
-            <div id="test">
-                
-            </div>
-            <div id="test2">
+            <div id = "score"></div>
+            <h2 id="timer"></h2>
+
+            <div id="firstQuestion">
                 
             </div>
              <button class="btn" id="start"> Start Quiz </button>
         </div>
         
-        <script src="quizquestions.js"></script> </script>
+        <script src="quizquestions.js"></script> 
 
     </body>
 
