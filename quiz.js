@@ -127,15 +127,16 @@ function displayHighScores(){
     <div> 
         <table>
         <th>
-            <td>initials</td>
-            <td>score</td>
+            <td><strong>[  Initials  ]<strong></td>
+            <td><strong>[  Score  ]<strong></td>
         </th>`
     for(let i=0; i<scores.length; i++){
         let score = scores[i];
         myHtml+= `
         <tr>
-        <td>${score.initials}</td>
-        <td>${score.score}</td>
+        <td>${   score.initials  }</td>
+        <td><td>
+        <td>${   score.score   }</td>
         </tr>
         `
     }
