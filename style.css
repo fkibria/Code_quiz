@@ -52,3 +52,7 @@ h1,h3 {
     cursor: pointer;
     background-color: rgb(50, 9, 92);
 }
+
+.selection {
+    display: 2000 ms;
+}
