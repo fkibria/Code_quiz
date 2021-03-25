@@ -1,7 +1,7 @@
 # Code_quiz
 
 
-https://fkibria.github.io/Code_quiz/
+Deployed app: https://fkibria.github.io/Code_quiz/
 
 ## User Story
 
